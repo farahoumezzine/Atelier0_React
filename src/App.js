@@ -7,7 +7,7 @@ function App() {
  /* useEffect(() => {
     const words = ["farah", "oumezzine", "testerword"]; 
     console.log(findLongestWord(words)); 
-}, []);*/
+}, []); */
 useEffect(() => {
   const input = [["a", "b", "c"], ["c", "d","f"], ["d", "f","g"]];
   console.log(countOccurrences(input));
